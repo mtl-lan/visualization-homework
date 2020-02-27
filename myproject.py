@@ -90,7 +90,7 @@ for quality in quality_array:
     alcohol_list.append(sorted_by_quality_df[sorted_by_quality_df['quality'] == quality]['alcohol'].mean())
     density_list.append(sorted_by_quality_df[sorted_by_quality_df['quality'] == quality]['density'].mean())
 
-fig, ax1 = plt.subplots(3, 1, figsize=(21, 21))
+fig, ax1 = plt.subplots(3, 1, figsize=(15, 15))
 ax1[0].plot(quality_array, alcohol_list, 'b.-', label="alcohol")
 ax1[0].set_title('Effect of alcohol/density on wine quality', fontdict={'fontsize': 18, 'fontweight': 'bold'})
 ax1[0].set_xlabel('quality', fontdict={'fontsize': 16})
