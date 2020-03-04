@@ -35,4 +35,5 @@ There is also an interesting finds: Most of the plots show the ci (confidence in
 Use machine learning to predict wine quality!
 
 ##Abstract 
+We may use machine learning to feed the data to some moduls for classification! 
 
