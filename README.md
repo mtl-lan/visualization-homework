@@ -1,6 +1,6 @@
-#My project: Wine Quality prediction
+# My project: Wine Quality prediction
 
-##Introduction 
+## Introduction 
 This datasets is related to red variants of the Portuguese “Vinho Verde” wine. Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).
 
 The input features are as follows:
@@ -20,7 +20,7 @@ The input features are as follows:
 The output feature is:  
 `quality - output variable (based on sensory data, score between 0 and 10);`
 
-###Class7 - Advanced
+### Class7 - Advanced
 **The meaningful explorations from different plots:** 
 * Histogram and Line plot: showing alcohol/chlorides/citric_acid/density/volatile_acidity are linear-like relations to dependent feature "Quality". Density's value is from 0.992 to 0.995 which has a very low scaling.
 * Heatmap: showing only alcohol/chlorides/density/volatile_acidity are more related to dependent feature "Quality" but not any feature has a very high relation to "Quality", the highest is alcohol 0.44. And the 'citric acid' has only 0.086 correlation with 'Quality'. 
@@ -31,9 +31,9 @@ There is also an interesting finds: Most of the plots show the ci (confidence in
 
 * 3D plot: approved Density plots. 
 
-##Research Question
+## Research Question
 Use machine learning to predict wine quality!
 
-##Abstract 
+## Abstract 
 We may use machine learning to feed the data to some moduls for classification! 
 
