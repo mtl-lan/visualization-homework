@@ -22,18 +22,21 @@ The output feature is:
 
 ### Class7 - Advanced
 **The meaningful explorations from different plots:** 
-* Histogram and Line plot: showing alcohol/chlorides/citric_acid/density/volatile_acidity are linear-like relations to dependent feature "Quality". Density's value is from 0.992 to 0.995 which has a very low scaling.
+
+* Histogram and Line plot: showing alcohol/chlorides/citric_acid/density/volatile_acidity are linear-like relations to dependent feature "Quality". Density's value is from 0.992 to 0.995 which has a very small scaling.
 * Heatmap: showing only alcohol/chlorides/density/volatile_acidity are more related to dependent feature "Quality" but not any feature has a very high relation to "Quality", the highest is alcohol 0.44. And the 'citric acid' has only 0.086 correlation with 'Quality'. 
 * Boxplots: showing there are outliers in all features but there are only few outliers in alcohol & density, chlorides and volatile acidity showing abnormal distribution, we may need log when doing ML. 
 * Pairmap and Scatter: showing density & alcohol has linear relation. 
 * `Density plots`(most meaningful): showing alcohol, density seems to be good discriminants for the "Quality". And citric acid & total sulfur dioxide are two features omitted because of low correlation to "Quality" but both are good discriminants for the "Quality" showing in density plots. 
 There is also an interesting finds: Most of the plots show the ci (confidence interval) of poor quality wine and good quality wine are quite larger than the medium quality wine. I believe that for the sommelier, the quality of the wine is affected by personal preferences, with some uncertainty. 
-
 * 3D plot: approved Density plots. 
 
-## Research Question
-Use machine learning to predict wine quality!
+## Research Question 
+Use machine learning to help predict wine grades and make ordinary consumers become professional sommeliers!
+
 
 ## Abstract 
-We may use machine learning to feed the data to some moduls for classification! 
+This dataset contains red and white wine samples. The inputs include objective tests (e.g. PH values) and the output is based on sensory data(median of at least 3 evaluations made by wine experts). There is no doubt that wine tasting has always been in the hands of sommeliers. As ordinary consumers, when choosing red wine in the market, it is really difficult to choose. Now, we can use this dataset to build a predictive model, which may be able to help consumers to judge the grade of wine when selecting wine based on the relevant ingredients listed on the packaging.
 
+* action (how will we try to solve this problem/answer this question - continue next week
+* resolution (what did we end up producing) - continue next week
