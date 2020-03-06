@@ -23,8 +23,8 @@ The output feature is:
 ### Class7 - Advanced
 **The meaningful explorations from different plots:** 
 
-* Histogram and Line plot: showing alcohol/chlorides/citric_acid/density/volatile_acidity are linear-like relations to dependent feature "Quality". Density's value is from 0.992 to 0.995 which has a very small scaling.
-* Heatmap: showing only alcohol/chlorides/density/volatile_acidity are more related to dependent feature "Quality" but not any feature has a very high relation to "Quality", the highest is alcohol 0.44. And the 'citric acid' has only 0.086 correlation with 'Quality'. 
+* Histogram and Line plot: showing alcohol / chlorides / citric_acid / density / volatile_acidity are linear-like relations to dependent feature "Quality". Density's value is from 0.992 to 0.995 which has a very small scaling.
+* Heatmap: showing only alcohol / chlorides / density / volatile_acidity are more related to dependent feature "Quality" but not any feature has a very high relation to "Quality", the highest is alcohol 0.44. And the 'citric acid' has only 0.086 correlation with 'Quality'. 
 * Boxplots: showing there are outliers in all features but there are only few outliers in alcohol & density, chlorides and volatile acidity showing abnormal distribution, we may need log when doing ML. 
 * Pairmap and Scatter: showing density & alcohol has linear relation. 
 * `Density plots`(most meaningful): showing alcohol, density seems to be good discriminants for the "Quality". And citric acid & total sulfur dioxide are two features omitted because of low correlation to "Quality" but both are good discriminants for the "Quality" showing in density plots. 
